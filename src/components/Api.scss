@@ -1,0 +1,27 @@
+div .players_card_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    gap: 20px;
+}
+
+.player_card {
+    background-color: rgba(226, 226, 226, .4);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 12px;
+    align-items: center;
+    transition: all 1s ;
+    text-decoration: none;
+    color: black;
+
+    img {
+        width: 80%;
+    }
+
+}
+
+.player_card:hover {
+    transform: scale(110%);
+}
