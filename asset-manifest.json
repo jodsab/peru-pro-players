@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/peru-pro-players/static/css/main.badd10d8.chunk.css",
-    "main.js": "/peru-pro-players/static/js/main.448d5b09.chunk.js",
-    "main.js.map": "/peru-pro-players/static/js/main.448d5b09.chunk.js.map",
+    "main.js": "/peru-pro-players/static/js/main.0739ee42.chunk.js",
+    "main.js.map": "/peru-pro-players/static/js/main.0739ee42.chunk.js.map",
     "runtime-main.js": "/peru-pro-players/static/js/runtime-main.00ed5e87.js",
     "runtime-main.js.map": "/peru-pro-players/static/js/runtime-main.00ed5e87.js.map",
     "static/js/2.4f4cb524.chunk.js": "/peru-pro-players/static/js/2.4f4cb524.chunk.js",
     "static/js/2.4f4cb524.chunk.js.map": "/peru-pro-players/static/js/2.4f4cb524.chunk.js.map",
     "index.html": "/peru-pro-players/index.html",
     "static/css/main.badd10d8.chunk.css.map": "/peru-pro-players/static/css/main.badd10d8.chunk.css.map",
-    "static/js/2.4f4cb524.chunk.js.LICENSE.txt": "/peru-pro-players/static/js/2.4f4cb524.chunk.js.LICENSE.txt"
+    "static/js/2.4f4cb524.chunk.js.LICENSE.txt": "/peru-pro-players/static/js/2.4f4cb524.chunk.js.LICENSE.txt",
+    "static/media/dota.png": "/peru-pro-players/static/media/dota.136d49a0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.00ed5e87.js",
     "static/js/2.4f4cb524.chunk.js",
     "static/css/main.badd10d8.chunk.css",
-    "static/js/main.448d5b09.chunk.js"
+    "static/js/main.0739ee42.chunk.js"
   ]
 }
