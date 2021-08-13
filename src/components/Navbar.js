@@ -1,6 +1,7 @@
 import navlist from './navigation.json';
 import React from 'react';
-import { Link, BrowserRouter as Router, Switch, Route, NavLink } from 'react-router-dom';
+import { Link, BrowserRouter as Router, Switch, Route, NavLink,useRouteMatch,
+    useParams } from 'react-router-dom';
 import './Navbar.scss';
 
 import Api from './Api';
@@ -24,14 +25,14 @@ class Navbar extends React.Component {
                 </ul>
             </div>
                     <Switch>
-                        <Route path="/About">
+                        <Route path={`/About`}>
                             About
                         </Route>
-                        <Route path="/Pro-Players">
+                        <Route path={`/Pro-Players`}>
                             Proplayers
                             <Api/>
                         </Route>
-                        <Route path="/" exact>
+                        <Route path={`/`} exact>
                             Home
                             <Home />
                         </Route>
