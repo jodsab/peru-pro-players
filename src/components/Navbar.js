@@ -4,6 +4,7 @@ import { Link, BrowserRouter as Router, Switch, Route, NavLink } from 'react-rou
 import './Navbar.scss';
 
 import Api from './Api';
+import Home from '../pages/Home';
 
 class Navbar extends React.Component {
     
@@ -15,7 +16,7 @@ class Navbar extends React.Component {
         return (
             <Router>
             <div className="nav_bar">
-                <img src={process.env.PUBLIC_URL + './images/dota.png'} alt='logodota'/> 
+                <img src={require('../images/dota.png').default} alt='logodota'/> 
                 <ul>
                     {
                         navigator.map((e) => <li><Link to={e.link}> {e.name} </Link></li>)
@@ -31,7 +32,7 @@ class Navbar extends React.Component {
                             <Api/>
                         </Route>
                         <Route path="/" exact>
-                            Home
+                            <Home />
                         </Route>
                     </Switch>
             </Router>
