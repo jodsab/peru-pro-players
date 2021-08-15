@@ -31,8 +31,12 @@ class Navbar extends React.Component {
                             Proplayers
                             <Api/>
                         </Route>
-                        <Route path={`/peru-pro-players`} exact>
+                        <Route path={`/`} exact>
                             Home
+                            <Home />
+                        </Route>
+                        <Route path={`/`}>
+                            404
                             <Home />
                         </Route>
                     </Switch>
