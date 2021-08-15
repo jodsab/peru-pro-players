@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 import './Api.scss';
 
 
@@ -16,7 +16,7 @@ export const Api = () => {
         const user = await data.json();
         const raa = [];
 
-        user.map((players) => {
+        user.forEach((players) => {
             if(players.loccountrycode === "PE"){
                 raa.push(players);
             }
@@ -33,7 +33,7 @@ export const Api = () => {
                             (
                                 <Link className="player_card" to={e.name} >
                                     <p>{e.team_tag} {e.name} </p>
-                                    <img src={e.avatarfull} />
+                                    <img src={e.avatarfull} alt={e.name} />
                                     <p>{e.account_id} </p>
                                 </Link>
                             )

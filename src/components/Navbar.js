@@ -1,7 +1,6 @@
 import navlist from './navigation.json';
 import React from 'react';
-import { Link, BrowserRouter as Router, Switch, Route, NavLink,useRouteMatch,
-    useParams } from 'react-router-dom';
+import { Link, BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './Navbar.scss';
 
 import Api from './Api';
@@ -32,7 +31,7 @@ class Navbar extends React.Component {
                             Proplayers
                             <Api/>
                         </Route>
-                        <Route path={`/`} exact>
+                        <Route path={`/peru-pro-players`} exact>
                             Home
                             <Home />
                         </Route>
