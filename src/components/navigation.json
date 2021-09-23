@@ -2,17 +2,17 @@
     {
         "id": 1,
         "name": "Home",
-        "link": ""
+        "link": "/"
     },
     {
         "id": 2,
         "name": "Pro Players",
-        "link": "Pro-Players"
+        "link": "/Pro-Players"
     },
     {
         "id": 3,
         "name": "About",
-        "link": "About"
+        "link": "/About"
     }
 ]
 

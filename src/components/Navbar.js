@@ -33,11 +33,6 @@ class Navbar extends React.Component {
                         </Route>
                         <Route path={`/`} exact>
                             Home
-                            <Home />
-                        </Route>
-                        <Route path={`/`}>
-                            404
-                            <Home />
                         </Route>
                     </Switch>
             </Router>
